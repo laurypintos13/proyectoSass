@@ -1,0 +1,40 @@
+@import"variables";
+
+.mainContacto{
+    width: 100%;
+    height: auto;
+    background-color: $fondoNegroTres;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: $letra;
+    animation-name: aparecer; 
+    animation-duration: 1s;
+}
+iframe{
+    width: $width*3;
+    height: $height*3;
+}
+.mainContacto__info{    
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    h1{    
+        padding-top: 30px;
+        font-size: 15px;
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        text-align: start;        
+   }
+   .mainContacto__info--frase{
+    font-style: oblique;
+       
+}
+    .mainContacto__info--gracias{
+     font-style: oblique;
+       
+} 
+}

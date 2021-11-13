@@ -1,0 +1,69 @@
+@import"variables";
+
+.mainCover{
+    width: 100%;
+    height: $height +200;    
+    background-image: url(../media/inicio/inicio.jgp);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(80%); 
+    background-color:$fondoNegroTres;
+    display: flex;   
+    justify-content: center;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    h1{    
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        letter-spacing: 10px;
+        padding-top: 120px;
+    }
+}
+.mainFrase{
+    height: $height;
+    background-color: $fondoMenu;   
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    p{
+        text-align: center;
+        font-style: italic;   
+        font-size: 14px;
+        letter-spacing: 1px;
+        color:$letra;
+    }
+}
+.mainSobreMi{
+    background-color: $fondoNegroTres;
+    height: ($height *5)+50;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .mainSobreMi__parrafo--h2{      
+        letter-spacing: 2px;
+        padding-left: 30px;  
+        padding-top: 40px;  
+        font-size: 30px;    
+        color: $letra; 
+    }
+    .mainSobreMi__parrafo{    
+        letter-spacing: 0.5px;       
+    }
+    .mainSobreMi__parrafo--p{
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        color: $letra; 
+    }
+    .mainSobreMi__parrafo--a{   
+        text-decoration: none;
+        padding-left: 30px;
+        color: $letra; 
+    }
+    .mainSobreMi__img--img{
+       display: none;
+    }
+}
+

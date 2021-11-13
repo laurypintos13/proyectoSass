@@ -1,0 +1,21 @@
+@import"variables";
+
+.footerInfo{
+    width: 100%;
+    height: $height+50;    
+    color: $letra;
+    background-color: $fondofooter;
+    background-image: linear-gradient(315deg, #0b0d0f 5%, #101316 75%);
+    display:  flex;
+    flex-flow: row nowrap;
+    justify-content: space-around ;
+    .footerInfo__div1 {        
+        padding-top: 35px;
+        font-size: 14px; 
+        text-align: end;       
+      }
+      .footerInfo__div2{     
+          padding-top: 40px; 
+          text-align: start;                  
+      }
+}

@@ -1,0 +1,15 @@
+@import"variables";
+.mainTattoo{    
+    width: 100%;
+    background-color:$fondoNegroTres;
+    h1{
+        background-color:$fondoNegroDos;
+        letter-spacing: 2px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        color:$letra;
+        animation-name: aparecer; 
+        animation-duration: 2s; 
+    }   
+}

@@ -1,0 +1,44 @@
+@import"variables";
+
+.mainCuidados{
+    background-color: $fondoNegroTres;
+    width:100%;  
+    height: ($height*10)+50;
+    padding-left: 10px;
+    padding-right: 18px;
+    h1{
+        background-color:$fondoNegroDos;
+        letter-spacing: 2px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 30px;
+        color: $letra;
+        animation-name: aparecer; 
+        animation-duration: 2s;  
+    }
+    h2{
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: $letra;
+    }
+}
+.sectionCuidados{   
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;   
+    padding-top: 50px;  
+}
+.cuidadosLista li{      
+    padding-top: 10px;
+    padding-left: 10px;
+    color: $letra;
+}
+.cuidadosExtra p{   
+    font-weight: bold;
+    padding-top: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    color: $letra;
+}
