@@ -10,13 +10,8 @@
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 nav{
-    z-index: 100;
- 
-}
-.nav-item{
-    padding: 15px;
-    text-align: center;    
+    z-index: 100; 
 }

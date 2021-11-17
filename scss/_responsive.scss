@@ -1,6 +1,14 @@
 @import"variables";
 
 @media (min-width: 800px) and (max-width: 1023px){
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.nav-item{
+    padding-right: 100px;
+}
 .mainSobreMi{
     height: ($height*4) +50;
     display: flex;
@@ -29,6 +37,15 @@
 }
 
 @media (min-width: 1024px){    
+
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.nav-item{
+    padding-right: 100px;
+}
 .mainCover{        
     height: ($height*7) +30; 
     h1{

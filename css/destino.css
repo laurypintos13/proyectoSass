@@ -67,14 +67,10 @@
   font-size: 18px;
   letter-spacing: 1px;
   display: flex;
-  justify-content: center; }
+  justify-content: end; }
 
 nav {
   z-index: 100; }
-
-.nav-item {
-  padding: 15px;
-  text-align: center; }
 
 .footerInfo {
   width: 100%;
@@ -240,6 +236,12 @@ iframe {
   margin: 10px; }
 
 @media (min-width: 800px) and (max-width: 1023px) {
+  .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .nav-item {
+    padding-right: 100px; }
   .mainSobreMi {
     height: 450px;
     display: flex;
@@ -262,6 +264,12 @@ iframe {
     height: 720px; } }
 
 @media (min-width: 1024px) {
+  .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .nav-item {
+    padding-right: 100px; }
   .mainCover {
     height: 730px; }
     .mainCover h1 {
