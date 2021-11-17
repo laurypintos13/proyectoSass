@@ -30,11 +30,11 @@ iframe{
         text-align: start;        
    }
    .mainContacto__info--frase{
-    font-style: oblique;
-       
+    @extend .mainContacto__info--gracias;   
+   
 }
     .mainContacto__info--gracias{
      font-style: oblique;
-       
+     text-align: center;       
 } 
 }

@@ -2,7 +2,7 @@
 
 .mainCover{
     width: 100%;
-    height: $height +200;    
+    height: $height +180;    
     background-image: url(../media/inicio/inicio.jgp);
     background-size: 120%;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
     }
 }
 .mainFrase{
-    height: $height;
+    height: $height ;
     background-color: $fondoMenu;   
     padding-top: 20px;
     padding-left: 30px;
