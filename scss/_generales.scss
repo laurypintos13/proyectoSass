@@ -17,7 +17,12 @@
     text-decoration: none;
     padding-left: 10px;
     color: $letra; 
-    } 
+}
+.volverInicio a:hover{
+    font-size: 20px;
+    color: lightslategrey;
+    transition: 0.5s;
+} 
        
 .volverInicio p{
     color: $letra;

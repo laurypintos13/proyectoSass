@@ -37,7 +37,6 @@
 }
 
 @media (min-width: 1024px){    
-
 .collapse{
     display: flex;
     flex-direction: row;
@@ -69,12 +68,12 @@
         font-size: 40px;
         padding-bottom: 10px;
     } 
-    .mainSobreMi__parrafo--h2:hover{
-        color: rgb(255, 255, 255);
-    }
+   
     .mainSobreMi__parrafo--a:hover{
         color: rgb(255, 252, 252);
         font-size: 19px;
+        color: lightslategrey;
+        transition: 0.3s;
     }
     .mainSobreMi__img--img{
         display: flex;
@@ -111,7 +110,7 @@
         filter: grayscale(30%);
         border: solid 1px black;
         transform: scale(1.2);
-        transition: transform .2s;
+        transition: transform .5s;
         z-index: 100;
     }
 }
