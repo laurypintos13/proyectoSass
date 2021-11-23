@@ -18,19 +18,18 @@
 .footerInfo{
     height: $height +70;
     display:  flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    .footerInfo_div1{
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    .footerInfo__div1{
         text-align: start;
         padding-top: 40px;
-        padding-left: 150px;
     }
-    .footerInfo_div2{
-        padding-top: 40px;
+    .footerInfo__div2{
         text-align: end;
-        padding-right: 150px;
     }
+             
 } 
+
 .mainCuidados{  
     height: ($height*7) +20;  
 }     
