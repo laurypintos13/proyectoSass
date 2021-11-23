@@ -76,20 +76,21 @@ nav {
 
 .footerInfo {
   width: 100%;
-  height: 150px;
+  height: 300px;
   color: #f3f3f3;
   background-color: #101316;
   background-image: linear-gradient(315deg, #0b0d0f 5%, #101316 75%);
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-around; }
   .footerInfo .footerInfo__div1 {
-    padding-top: 35px;
+    padding-top: 5px;
     font-size: 14px;
-    text-align: end; }
+    text-align: center; }
   .footerInfo .footerInfo__div2 {
-    padding-top: 40px;
-    text-align: start; }
+    padding-left: 10px;
+    padding-top: 50px;
+    text-align: center; }
     .footerInfo .footerInfo__div2 a {
       color: #b9b9b9; }
   .footerInfo .footerInfo__div2 a:hover {

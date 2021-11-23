@@ -2,21 +2,22 @@
 
 .footerInfo{
     width: 100%;
-    height: $height+50;    
+    height: $height*3;    
     color: $letra;
     background-color: $fondofooter;
     background-image: linear-gradient(315deg, #0b0d0f 5%, #101316 75%);
     display:  flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-around ;
     .footerInfo__div1 {        
-        padding-top: 35px;
+        padding-top: 5px;       
         font-size: 14px; 
-        text-align: end;       
+        text-align: center;       
       }
       .footerInfo__div2{     
-          padding-top: 40px; 
-          text-align: start;
+          padding-left: 10px;
+          padding-top: 50px;
+          text-align: center;
           a{
               color: rgb(185, 185, 185);             
           }                  
