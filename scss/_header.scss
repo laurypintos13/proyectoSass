@@ -1,9 +1,11 @@
 @import"variables";
 
 /* MENU BOOTSTRAP */
+
 .container-fluid{
     background-color: $fondoMenu;
-    height: $height -30;    
+    height: $height -30;
+    
 }
 .collapse{
     font-family: 'Oswald', sans-serif;
@@ -11,6 +13,7 @@
     letter-spacing: 1px;
     display: flex;
     justify-content: end;
+  
 }
 nav{
     z-index: 100; 

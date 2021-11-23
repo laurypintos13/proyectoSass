@@ -16,6 +16,12 @@
       }
       .footerInfo__div2{     
           padding-top: 40px; 
-          text-align: start;                  
+          text-align: start;
+          a{
+              color: rgb(185, 185, 185);             
+          }                  
+      }
+      .footerInfo__div2 a:hover{
+          color:lightslategrey;          
       }
 }

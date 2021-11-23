@@ -1,15 +1,17 @@
 .mainCover {
   width: 100%;
   height: 280px;
-  background-image: url(../media/inicio/inicio.jgp);
-  background-size: 120%;
+  background-image: url(../media/inicio/inicio.jpeg);
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  filter: grayscale(80%);
+  filter: opacity(96%);
   background-color: #0b0d0f;
   display: flex;
   justify-content: center;
   animation-name: aparecer;
-  animation-duration: 2s; }
+  animation-duration: 2s;
+  transition: 0.5s; }
   .mainCover h1 {
     text-align: center;
     color: black;
@@ -88,6 +90,10 @@ nav {
   .footerInfo .footerInfo__div2 {
     padding-top: 40px;
     text-align: start; }
+    .footerInfo .footerInfo__div2 a {
+      color: #b9b9b9; }
+  .footerInfo .footerInfo__div2 a:hover {
+    color: lightslategrey; }
 
 .mainTattoo {
   width: 100%;
@@ -219,7 +225,8 @@ iframe {
 .volverInicio a {
   text-decoration: none;
   padding-left: 10px;
-  color: #f3f3f3; }
+  color: #f3f3f3;
+  transition: 0.5s; }
 
 .volverInicio a:hover {
   font-size: 20px;
@@ -239,6 +246,9 @@ iframe {
   width: 100px -80;
   height: 100px -80;
   margin: 10px; }
+
+.bi a {
+  color: blueviolet; }
 
 @media (min-width: 800px) and (max-width: 1023px) {
   .collapse {
@@ -293,11 +303,13 @@ iframe {
     .mainSobreMi .mainSobreM__parrafo--h2 {
       font-size: 40px;
       padding-bottom: 10px; }
+    .mainSobreMi .mainSobreMi__parrafo--a {
+      transition: 0.5s; }
     .mainSobreMi .mainSobreMi__parrafo--a:hover {
       color: #fffcfc;
       font-size: 19px;
       color: lightslategrey;
-      transition: 0.3s; }
+      transition: 0.5s; }
     .mainSobreMi .mainSobreMi__img--img {
       display: flex;
       width: 300px;

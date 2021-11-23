@@ -3,15 +3,17 @@
 .mainCover{
     width: 100%;
     height: $height +180;    
-    background-image: url(../media/inicio/inicio.jgp);
-    background-size: 120%;
+    background-image: url(../media/inicio/inicio.jpeg);
+    background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    filter: grayscale(80%); 
+    filter: opacity(96%); 
     background-color:$fondoNegroTres;
     display: flex;   
     justify-content: center;
     animation-name: aparecer;
     animation-duration: 2s;
+    transition: 0.5s;
     h1{    
         text-align: center;
         color: rgb(0, 0, 0);
@@ -20,6 +22,7 @@
         padding-top: 120px;
     }
 }
+
 .mainFrase{
     height: $height ;
     background-color: $fondoMenu;   

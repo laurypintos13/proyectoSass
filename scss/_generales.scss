@@ -16,7 +16,8 @@
 .volverInicio a{ 
     text-decoration: none;
     padding-left: 10px;
-    color: $letra; 
+    color: $letra;
+    transition: 0.5s;
 }
 .volverInicio a:hover{
     font-size: 20px;
@@ -37,4 +38,7 @@
     width: $width -80;
     height: $height -80;
     margin: 10px;
+}
+.bi a{
+    color: blueviolet;
 }
