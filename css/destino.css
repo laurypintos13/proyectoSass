@@ -234,7 +234,7 @@ iframe {
   transition: 0.5s; }
 
 .volverInicio a:hover {
-  font-size: 20px;
+  font-size: 22px;
   color: lightslategrey;
   transition: 0.5s; }
 
@@ -306,7 +306,11 @@ iframe {
     flex-direction: row;
     justify-content: space-around; }
   .nav-item {
-    padding-right: 100px; }
+    padding-right: 100px;
+    transition: 0.8s; }
+  .nav-item:hover {
+    font-size: 30px;
+    transition: 0.8s; }
   .mainCover {
     height: 730px; }
     .mainCover h1 {
@@ -329,7 +333,7 @@ iframe {
       transition: 0.5s; }
     .mainSobreMi .mainSobreMi__parrafo--a:hover {
       color: #fffcfc;
-      font-size: 19px;
+      font-size: 22px;
       color: lightslategrey;
       transition: 0.5s; }
     .mainSobreMi .mainSobreMi__img--img {
@@ -359,7 +363,7 @@ iframe {
       filter: grayscale(30%);
       border: solid 1px black;
       transform: scale(1.2);
-      transition: transform .5s;
+      transition: 0.8s;
       z-index: 100; }
   /*inicio main cuidados*/
   .mainCuidados {
