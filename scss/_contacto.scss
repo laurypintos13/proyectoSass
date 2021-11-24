@@ -21,13 +21,13 @@ iframe{
     padding-right: 20px;
     h1{    
         padding-top: 30px;
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
     }
     p{
         font-size: 15px;
         letter-spacing: 0.5px;
-        text-align: start;        
+        text-align: center;        
    }
    .mainContacto__info--frase{
     @extend .mainContacto__info--gracias;   

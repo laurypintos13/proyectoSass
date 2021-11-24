@@ -169,15 +169,15 @@
 
 /*inicio main cuidados*/
 .mainCuidados{  
-    height: ($height *7) +50;
+    height: ($height *7) +70;
     .cuidadosLista li{
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 1px;
     }
     .cuidadosExtra{
         padding-top: 5px;
-        font-style: oblique;
         letter-spacing: 1px;
+        font-size: 18px;
     }
 }
     
