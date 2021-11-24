@@ -1,6 +1,6 @@
 @import"variables";
 
-@media (min-width: 600px) and (max-width: 1023px){
+@media (min-width: 600px) and (max-width: 1679px){
 .collapse{
     display: flex;
     flex-direction: row;
@@ -9,7 +9,6 @@
 .nav-item{
     text-align: center;
 }
-
 .mainFrase__p{
     text-align: center;
     padding-top: 20px;
@@ -39,6 +38,9 @@
     padding-top: 20px;
     font-size: 18px;
 }
+.mainContacto__hp{
+    text-align: center;
+}
 .responsive-tablet{
     display: flex;
     flex-direction: row;
@@ -66,14 +68,14 @@
     .cerrar{
         margin-left: 49%;
         margin-top: 220px;
-    }
-    
+    }    
 } 
+
 
     
 }
 
-@media (min-width: 1024px){    
+@media (min-width: 1680px){    
 .collapse{
     display: flex;
     flex-direction: row;
@@ -197,6 +199,7 @@
     p{
         font-size: 18px;
         letter-spacing: 0.5px;
+        text-align: start;
    }
 }
 iframe{
