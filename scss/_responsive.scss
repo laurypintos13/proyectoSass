@@ -9,14 +9,43 @@
 .nav-item{
     text-align: center;
 }
+
+.mainFrase__p{
+    text-align: center;
+    padding-top: 20px;
+}
 .mainSobreMi{
     height: ($height*4) +50;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
+.mainCuidados{  
+    height: ($height*8) +40;    
+    
+    ul{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .cuidadosExtra{
+        padding-top: 20px;
+    }
+} 
+.mainContacto__info h1{
+    font-size: 20px;
+}
 .mainContacto__info p{
-    text-align: center;
+    text-align: start;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.responsive-tablet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.hrFinal{
+    display: none;
 }
 .footerInfo{
     height: $height +70;
@@ -33,9 +62,7 @@
              
 } 
 
-.mainCuidados{  
-    height: ($height*7) +20;  
-}     
+    
 }
 
 @media (min-width: 1024px){    

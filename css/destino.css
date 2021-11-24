@@ -262,13 +262,33 @@ iframe {
     justify-content: space-around; }
   .nav-item {
     text-align: center; }
+  .mainFrase__p {
+    text-align: center;
+    padding-top: 20px; }
   .mainSobreMi {
     height: 450px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
+  .mainCuidados {
+    height: 840px; }
+    .mainCuidados ul {
+      padding-left: 40px;
+      padding-right: 40px; }
+    .mainCuidados .cuidadosExtra {
+      padding-top: 20px; }
+  .mainContacto__info h1 {
+    font-size: 20px; }
   .mainContacto__info p {
-    text-align: center; }
+    text-align: start;
+    padding-top: 20px;
+    font-size: 18px; }
+  .responsive-tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .hrFinal {
+    display: none; }
   .footerInfo {
     height: 170px;
     display: flex;
@@ -278,9 +298,7 @@ iframe {
       text-align: start;
       padding-top: 40px; }
     .footerInfo .footerInfo__div2 {
-      text-align: end; }
-  .mainCuidados {
-    height: 720px; } }
+      text-align: end; } }
 
 @media (min-width: 1024px) {
   .collapse {
