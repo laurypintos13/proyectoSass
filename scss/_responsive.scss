@@ -1,19 +1,22 @@
 @import"variables";
 
-@media (min-width: 800px) and (max-width: 1023px){
+@media (min-width: 600px) and (max-width: 1023px){
 .collapse{
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
 }
 .nav-item{
-    padding-right: 100px;
+    text-align: center;
 }
 .mainSobreMi{
     height: ($height*4) +50;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+.mainContacto__info p{
+    text-align: center;
 }
 .footerInfo{
     height: $height +70;

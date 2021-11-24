@@ -69,10 +69,14 @@
   font-size: 18px;
   letter-spacing: 1px;
   display: flex;
-  justify-content: end; }
+  justify-content: start; }
 
 nav {
   z-index: 100; }
+
+.nav-item {
+  text-align: start;
+  padding-left: 10px; }
 
 .footerInfo {
   width: 100%;
@@ -251,18 +255,20 @@ iframe {
 .bi a {
   color: blueviolet; }
 
-@media (min-width: 800px) and (max-width: 1023px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   .collapse {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
   .nav-item {
-    padding-right: 100px; }
+    text-align: center; }
   .mainSobreMi {
     height: 450px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
+  .mainContacto__info p {
+    text-align: center; }
   .footerInfo {
     height: 170px;
     display: flex;
