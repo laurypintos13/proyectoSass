@@ -23,6 +23,7 @@
     justify-content: space-evenly;
     padding-left: 80px;
     padding-right: 80px;
+    list-style: none;
     img{
         width: 100%;
         height: 100%;
@@ -31,4 +32,52 @@
         animation-name: aparecer; 
         animation-duration: 2s;        
     }
+}
+
+.carrusel{
+    display: none;
+    padding-top: 50%;
+    .imagen{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            color: $letra;
+            font-size: 40px ;
+            text-decoration: none;
+            margin: 0 10px;    
+        } 
+        img{
+            width: 500px;
+            height: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            border:4px solid #fff;
+        }  
+    }
+    .cerrar{
+        display: block;
+        background: $letra;
+        width: 25px;
+        height: 25px;
+        margin-left: 47%;
+        margin-top: 100px;
+        text-align: center;
+        text-decoration:none;
+        font-size: 25px;
+        color: $fondoNegroDos;
+        border-radius: 60%;
+        line-height: 25px;
+    }
+    
+}
+.carrusel:target{
+    display: block;
+    position: fixed;
+    background-color: $fondoNegroTres;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
