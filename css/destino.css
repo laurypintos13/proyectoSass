@@ -175,7 +175,7 @@ nav {
     text-decoration: none;
     font-size: 25px;
     color: #15191d;
-    border-radius: 60%;
+    border-radius: 80%;
     line-height: 25px; }
 
 .carrusel:target {
@@ -408,7 +408,11 @@ iframe {
     padding-top: 20%; }
     .carrusel .cerrar {
       margin-left: 49%;
-      margin-top: 250px; }
+      margin-top: 230px; }
+    .carrusel .cerrar:hover {
+      background: #15191d;
+      color: #f3f3f3;
+      transition: 0.5s; }
   /*inicio main cuidados*/
   .mainCuidados {
     height: 750px; }

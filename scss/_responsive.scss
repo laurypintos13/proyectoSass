@@ -150,7 +150,12 @@
     padding-top: 20%;
     .cerrar{
         margin-left: 49%;
-        margin-top: 250px;
+        margin-top: 230px;
+    }
+    .cerrar:hover{
+        background: $fondoNegroDos;
+        color: $letra;
+        transition: 0.5s;
     }
 }
 
