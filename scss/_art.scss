@@ -58,18 +58,16 @@
         }  
     }
     .cerrar{
-        display: block;
-        background: $letra;
+        display: block;        
         width: 25px;
         height: 25px;
-        margin-left: 47%;
-        margin-top: 150px;
+        margin-left: 41%;
+        margin-top: 140px;
         text-align: center;
         text-decoration:none;
         font-size: 25px;
-        color: $fondoNegroDos;
-        border-radius: 90%;
-        line-height: 25px;
+        color: $letra;      
+        
     }
     
 }
